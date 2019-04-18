@@ -2,7 +2,23 @@
 <html>
 	<head>
 		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-
+		
+		<!---
+		DEVELOPERS:
+			Carolyn McCormick
+			Christina Scheiber
+			Nathaniel Ewing
+		
+		USER MANUAL:		
+		i-Timer is designed to work in an html viewer. Depending on the device this could be different
+		applications and may not be the internet explorer. An example is the iOS, where note reader is 
+		required. This file may be edited in any html editor, to customize it for the user and add 
+		additional functions.
+		
+		No additional updates are currently planned for this software as it was part of a software
+		development project and will be unsupported as of 26 Apr 19.
+		--->
+		
 		<script type="text/javascript">
 			//Global variables for all functions to utilize.
 			var isPause = false;
@@ -296,12 +312,14 @@
 				justify-content: center;
 				font-size: 3vw;
 				text-align: center;
+				display: block;
 			}
 			
 			.inputClass input, button{
 				width: 3.5em;
 				font-size: 3vw;
 				text-align: center;
+				visibility: inherit;
 			}
 			
 			.inputClass td{
@@ -314,6 +332,7 @@
 				justify-content: center;
 				text-align: center;
 				font-size: 3vw;
+				display: block;
 			}
 			
 			.outputClass td{
